@@ -34,7 +34,9 @@ function s1(){
     document.getElementById("song2").style.display="none";
     document.getElementById("song3").pause();
     document.getElementById("song3").style.display="none";
-
+    document.getElementById("audio1").src="./pause1.png";
+    document.getElementById("audio2").src="./play.png";
+    document.getElementById("audio3").src="./play.png";
 }
 
 function s2(){
@@ -44,6 +46,9 @@ function s2(){
    document.getElementById("song2").style.display="block";
    document.getElementById("song3").pause();
    document.getElementById("song3").style.display="none";
+   document.getElementById("audio2").src="./pause1.png";
+   document.getElementById("audio3").src="./play.png";
+   document.getElementById("audio1").src="./play.png";
    
 }
 function s3(){
@@ -53,4 +58,7 @@ function s3(){
     document.getElementById("song2").style.display="none";
     document.getElementById("song3").play();
     document.getElementById("song3").style.display="block";
+    document.getElementById("audio1").src="./play.png";
+    document.getElementById("audio2").src="./play.png";
+    document.getElementById("audio3").src="./pause1.png";
 }

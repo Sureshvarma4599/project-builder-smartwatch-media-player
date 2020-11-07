@@ -113,3 +113,8 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: 30px;
     display: none;
 }
+#pause{
+    width: 200px;
+    height: 30px;
+    display: none;
+}
