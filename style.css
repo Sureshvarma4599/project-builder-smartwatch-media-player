@@ -1,0 +1,115 @@
+body{
+    background-color: darkslategray;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.textcase{
+    color: floralwhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+text-align: center;
+display: flex;
+justify-content: space-around;
+margin-top: 300px;
+margin-left: 200px;
+
+}
+.watch{
+    width: 500px;
+    height: 500px;
+    border: 1px solid white;
+    margin: 100px;
+    background-color: ivory;
+}
+img{
+    width:20px;
+    height: 20px;
+}
+.border{
+    width: 200px;
+    height: 250px;
+    margin: 150px;
+    border: 1px solid black;
+    background-color: #2B3434;
+    border-radius: 50px;
+}
+.screen{
+    width: 200px;
+    height: 220px;
+    margin-top: 12px;
+    border: 1px solid black;
+    background-color:black;
+    border-radius: 50px;
+}
+
+.bar{
+    margin-left: 41px;
+    justify-content: space-between;
+    width: 120px;
+    height: 50px;
+    margin-top: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+     
+    
+}
+/*
+#main{
+    margin-top: 0px;
+    width: 200px;
+    height: 120px;
+    background-color: aliceblue;
+    display: hidden;
+}*/
+#demo{
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 2em;
+align-items: center;
+color: cornsilk;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#demo1{
+    font-size: 0.8em;
+    margin-top: 10px;
+    color: cornsilk;
+    text-align: center;
+    display: block;
+}
+#demo2{
+    width: 200px;
+    height: 120px;
+    background-color: black;
+    display: none;
+}
+#songs{
+    color: blanchedalmond;
+    width: 200px;
+    height: 110px;
+    display: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#song1{
+    width: 200px;
+    height: 30px;
+    display: none;
+}
+
+#song2{
+    width: 200px;
+    height: 30px;
+    display: none;
+}
+
+#song3{
+    width: 200px;
+    height: 30px;
+    display: none;
+}

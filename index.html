@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="textcase">
+           <h1>Smart Watch</h1>
+        </div>
+        <div class="watch">
+           <div class="border">
+               <div class="screen">
+                <p id="demo1"></p>
+                <div id="main">
+                    
+                    <p id="demo">00:00</p>
+                    <div id="demo2">
+                       
+                    </div>
+                    <div id="songs">
+                        <p onclick="s1()"> 1.<img src="./play.png" id="audio1" alt=""> In the end </audio> </p>
+                        <p onclick="s2()">2.<img src="./play.png" id="audio2" alt="">Saaho</p>
+                        <p onclick="s3()">3.<img src="./play.png" id="audio3" alt="">Badboy</p>
+                    </div>
+                    <audio id="song1" controls >
+                        <source src="music/in_the_end.mp3" type="audio/mpeg">
+                    </audio>
+                    <audio id="song2" controls>
+                        <source src="music/saaho.mp3" type="audio/mpeg">
+                    </audio>
+                    <audio id="song3" controls>
+                        <source src="music/badboy.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+              
+                
+                   <div class="bar">
+                    
+                    <img src="./message.png"  id="msg" alt=""   onclick="myImg()">
+                    <img src="./msc.png" alt="" onclick="myMusic()">
+                    <img src="./clk.png"  id="clk" alt="">
+                   </div>
+               </div>
+           </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
